@@ -155,6 +155,10 @@ button {
     flex-direction: column;
     color: white;
     padding: 16px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 .action-primary-text {
     font-weight: 900;
@@ -166,7 +170,8 @@ button {
 }
 .action-button {
     margin-bottom: auto;
-    margin-right: 16px;
+    margin-right: 64px;
+    margin-top: 16px;
 }
 
 button.action{
