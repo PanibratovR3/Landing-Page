@@ -24,6 +24,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     text-align: left;
+    margin-bottom: 16px;
 }
 
 .header-list {
@@ -53,15 +54,10 @@ li a {
     justify-content: flex-start;
 }
 
-.header-image-placeholder {
-    background-color: rgb(123, 123, 123);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    margin-left: 16px;
-    flex-shrink: 0;
+.img-big {
+    flex: 1;
+    max-width: 300px;
+    margin-left: 10px;
 }
 
 button {
@@ -90,11 +86,8 @@ button {
     display: flex;
 }
 
-.info-box {
-    border: 3px solid #3882F6;
-    height: 110px;
-    width: 110px;
-    border-radius: 10px;
+.img-small {
+    width: 100px;
 }
 .item {
     width: 160px;
