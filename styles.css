@@ -108,3 +108,67 @@ button {
 .info-text {
     color: #666;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px, 0, 100px, 100px;
+    
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.quote-author {
+    font-weight: 900;
+    text-align: right;
+    font-size: 30px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.action-container{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+}
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 16px;
+}
+.action-primary-text {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.action-secondary-text {
+    font-size: 16px;
+}
+.action-button {
+    margin-bottom: auto;
+    margin-right: 16px;
+}
+
+button.action{
+    border: 1px solid white;
+}
